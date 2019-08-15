@@ -8,9 +8,10 @@ import java.util.function.Predicate;
 public class PredicateTest {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(-5, -4, -3, -2, 0, 1, 2, 3, 4, 5);
+
+        /*
         List<Integer> positiveNumbers = new ArrayList<>();
         Predicate<Integer> zeroMoreThan = i -> i > 0;
-
         for (Integer number : numbers) {
             if (zeroMoreThan.test(number)) {
                 positiveNumbers.add(number);
@@ -25,9 +26,13 @@ public class PredicateTest {
             }
         }
 
-
         System.out.println("positiveNumbers: " + positiveNumbers);
         System.out.println("lessThan3Numbers: " + lessThan3Numbers);
+        */
+
+
+        Predicate<Integer> zeroMoreThan = i -> i > 0;
+        Predicate<Integer> lessThan3 = i -> i < 3;
 
         System.out.println(filter(numbers, zeroMoreThan));
         System.out.println(filter(numbers, lessThan3));
