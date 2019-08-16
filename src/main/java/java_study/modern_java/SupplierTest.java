@@ -9,7 +9,7 @@ public class SupplierTest {
         System.out.println(helloSupplier.get() + "World");      //Hello World
 
 
-        
+
         long start = System.currentTimeMillis();
         /*
 
