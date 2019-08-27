@@ -1,4 +1,4 @@
-package java_study.modern_java;
+package java_study.modern_java.lamda_basic;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

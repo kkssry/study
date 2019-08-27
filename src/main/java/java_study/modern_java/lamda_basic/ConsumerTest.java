@@ -1,4 +1,4 @@
-package java_study.modern_java;
+package java_study.modern_java.lamda_basic;
 
 import java.util.Optional;
 import java.util.function.Consumer;

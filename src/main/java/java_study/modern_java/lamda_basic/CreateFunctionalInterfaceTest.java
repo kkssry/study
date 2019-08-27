@@ -1,4 +1,4 @@
-package java_study.modern_java;
+package java_study.modern_java.lamda_basic;
 
 public class CreateFunctionalInterfaceTest {
     public static void main(String[] args) {

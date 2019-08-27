@@ -1,4 +1,4 @@
-package java_study.modern_java;
+package java_study.modern_java.stream_basic;
 
 import java.util.Arrays;
 import java.util.List;
