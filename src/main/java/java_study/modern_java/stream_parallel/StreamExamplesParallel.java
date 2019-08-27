@@ -1,4 +1,4 @@
-package java_study.modern_java;
+package java_study.modern_java.parallel_stream;
 
 import java.time.Instant;
 import java.util.List;
