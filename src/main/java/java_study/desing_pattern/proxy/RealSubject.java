@@ -1,4 +1,4 @@
-package java_study.desing_pattern;
+package java_study.desing_pattern.proxy;
 
 public class RealSubject implements Subject {
     @Override
