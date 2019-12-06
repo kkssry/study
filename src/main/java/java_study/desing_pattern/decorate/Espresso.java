@@ -10,7 +10,7 @@ public class Espresso extends AbstAdding {
     @Override
     public int getTotalPrice() {
         int price = super.getTotalPrice() + getAddPrice();
-        System.out.println(super.getTotalPrice());
+        System.out.println(super.toString() + " " + super.getTotalPrice());
         return price;
     }
 
